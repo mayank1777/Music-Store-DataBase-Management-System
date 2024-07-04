@@ -1,6 +1,16 @@
-## Getting Started
+## Music Store DataBase Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project implements a Java-based simulation of an online store using JDBC for database interaction. It features a client-server architecture where client requests are processed by a server which interacts with a relational database to manage user data and store inventory.
+
+## Features
+- `Client-Server Architecture`: Utilizes Java sockets for communication between clients and the server.
+- `Role-Based Access`: Supports multiple user roles with different privileges, including admin and regular users.
+- `Database Interactions`: Uses JDBC to handle all interactions with the MySQL database, executing SQL queries to manage users and transactions.
+
+## Prerequisites
+- Java JDK 11 or newer
+- MySQL Server
+
 
 ## Folder Structure
 
@@ -11,8 +21,6 @@ The workspace contains two folders by default, where:
 
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Authors
+- Mayank Sharma 
+- International Institude of Information Technology, Bangalore
